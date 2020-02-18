@@ -11,6 +11,4 @@ def line(katz_deli)
     end
 end  
 
-line(another_deli)
-
 def take_a_number(katz_deli, )
