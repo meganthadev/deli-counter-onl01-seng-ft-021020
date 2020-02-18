@@ -6,8 +6,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else number = 1
     katz_deli.each do |customer|
-    puts "The line is currently: #{other_deli} "  
-  end 
+    line_positions << "#{number}. #{customer}"
+      number += 1
+    end
 end  
 
 line(another_deli)
